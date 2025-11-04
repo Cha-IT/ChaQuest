@@ -1,6 +1,6 @@
 <div align="center">
   <!-- LOGO IMAGE -->
-  <img src="/frontend/public/TillerQuestLogoVertical.svg" width="350px" alt="TillerQuest"/>
+  <img src="/frontend/public/TillerQuestLogoVertical.svg" width="350px" alt="TillerQuest"/> Cha Edition
 </div>
 
 <h4 align="center">A humble remake of the popular Heimdallsquest</h4>
@@ -16,6 +16,9 @@
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
 </p>
+
+## Disclaimer for Contributers:
+This is a fork of TillerQuest, for use at Charlottenlund. If you want to contribute, make a branch based on tillerquest-upstream, NOT a branch based off main.
 
 <!-- SCREENSHOT -->
 
