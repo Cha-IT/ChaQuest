@@ -157,9 +157,15 @@ function BinaryJack({
       // Check if game should end
       if (result.hitTarget) {
         setGameStarted(false);
+        if(diceBox) {
+            diceBox.clearDice();
+        }
         handleFinishGame();
       } else if (result.turnsRemaining <= 0) {
         toast.info("Game over - no turns remaining");
+        if(diceBox) {
+          diceBox.clearDice();
+        }
         setGameStarted(false);
         handleFinishGame();
       } else {
