@@ -32,7 +32,7 @@ export default function SignUpPage() {
               Use your GitHub account to sign up
             </Typography>
             <Typography variant="body1" color="textSecondary" align="center">
-              TillerQuest uses OAuth to confirm your identity through other
+              ChaQuest uses OAuth to confirm your identity through other
               services. When you log in,
               <Box
                 component="span"
@@ -41,9 +41,9 @@ export default function SignUpPage() {
               >
                 {" "}
                 you only ever give your credentials to that service - never to
-                TillerQuest
+                ChaQuest
               </Box>
-              . Then, the GitHub service tells the TillerQuest servers that
+              . Then, the GitHub service tells the ChaQuest servers that
               you&apos;re really you.
               <br />
               <br />

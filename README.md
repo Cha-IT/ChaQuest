@@ -1,7 +1,9 @@
 <div align="center">
   <!-- LOGO IMAGE -->
-  <img src="/frontend/public/TillerQuestLogoVertical.svg" width="350px" alt="TillerQuest"/> Cha Edition
+  <img src="/frontend/public/TillerQuestLogoVertical.svg" width="350px" alt="ChaQuest"/> Cha Edition
 </div>
+
+<p align="center"><em>ChaQuest is based on and credits the original TillerQuest project.</em></p>
 
 <h4 align="center">A humble remake of the popular Heimdallsquest</h4>
 
@@ -17,8 +19,8 @@
   <a href="#license">License</a>
 </p>
 
-## Disclaimer for Contributers:
-This is a fork of TillerQuest, for use at Charlottenlund. If you want to contribute, make a branch based on tillerquest-upstream, NOT a branch based off main.
+## Notice about contributions:
+This fork (ChaQuest) is maintained for use at Charlottenlund and does not accept external contributions. Please do not open pull requests or feature requests for this repository. Credit goes to the original TillerQuest project.
 
 <!-- SCREENSHOT -->
 
@@ -47,7 +49,7 @@ This is a fork of TillerQuest, for use at Charlottenlund. If you want to contrib
 $ git clone
 
 # Go into the Project
-$ cd TillerQuest/
+$ cd ChaQuest/
 
 # Install dependencies
 $ npm i
@@ -216,7 +218,7 @@ $ npm run dev
 - Remember to use Pascal-case for components.
 
 ```
-└── 📁TillerQuest
+└── 📁ChaQuest
     └── 📁.github
     └── 📁.husky
     └── 📁.vscode
@@ -310,7 +312,7 @@ $ npm run dev
 
 # Color Scheme:
 
-TillerQuest is an application made for darkmode. Background and colors should therefore keep a black background and white text as a base in all pages and components. **Lightmode is not supported (and probably never will be)**.
+ChaQuest is an application made for darkmode. Background and colors should therefore keep a black background and white text as a base in all pages and components. **Lightmode is not supported (and probably never will be)**.
 
 \*_NOTE: Contrast ratio pairings have sufficient contrast for use with normal text, large text and graphics._
 | Color | Hex | Contrast color | Contrast ratio | Accessibility |

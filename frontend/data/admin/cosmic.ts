@@ -319,7 +319,7 @@ const handleSetCosmic = async (
 
   if (notify) {
     await sendDiscordMessage(
-      "TillerQuest",
+      "ChaQuest",
       `Today's cosmic event for ${grade} is "**${cosmic.name.replace(/-/g, " ")}**"! \n ${cosmic.description}`,
     );
   }

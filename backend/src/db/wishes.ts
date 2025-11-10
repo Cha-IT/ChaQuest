@@ -29,7 +29,7 @@ const wishes: Wish[] = [
   },
   {
     id: 4,
-    name: "TillerQuest Reset",
+    name: "ChaQuest Reset",
     description:
       "A reset of the player classes, guilds and abilities. This will not reset your level, gold or items bought.",
     image: "/wishes/reset.png",

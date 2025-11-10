@@ -510,7 +510,7 @@ const shopItems: ShopItems[] = [
   {
     id: 42,
     name: "Bugfinder",
-    description: "Found a bug in TillerQuest",
+    description: "Found a bug in ChaQuest",
     price: 0,
     type: "Badge",
     levelReq: null,
@@ -522,7 +522,7 @@ const shopItems: ShopItems[] = [
   {
     id: 43,
     name: "Master Of Bugs",
-    description: "Found a great number of bugs in TillerQuest",
+    description: "Found a great number of bugs in ChaQuest",
     price: 0,
     type: "Badge",
     levelReq: null,
@@ -534,7 +534,7 @@ const shopItems: ShopItems[] = [
   {
     id: 44,
     name: "Exterminator",
-    description: "Found and fixed a bug in TillerQuest",
+    description: "Found and fixed a bug in ChaQuest",
     price: 0,
     type: "Badge",
     levelReq: null,
@@ -546,7 +546,7 @@ const shopItems: ShopItems[] = [
   {
     id: 45,
     name: "Alpha Tester",
-    description: "Tested TillerQuest while it was in alpha development",
+    description: "Tested ChaQuest while it was in alpha development",
     price: 0,
     type: "Badge",
     levelReq: null,
@@ -558,7 +558,7 @@ const shopItems: ShopItems[] = [
   {
     id: 46,
     name: "Beta Tester",
-    description: "Tested TillerQuest while it was in beta development",
+    description: "Tested ChaQuest while it was in beta development",
     price: 0,
     type: "Badge",
     levelReq: null,
@@ -582,7 +582,7 @@ const shopItems: ShopItems[] = [
   {
     id: 48,
     name: "Developer",
-    description: "Helped with the development of TillerQuest",
+    description: "Helped with the development of ChaQuest",
     price: 0,
     type: "Badge",
     levelReq: null,
@@ -594,7 +594,7 @@ const shopItems: ShopItems[] = [
   {
     id: 49,
     name: "Artist",
-    description: "Created art for TillerQuest",
+    description: "Created art for ChaQuest",
     price: 0,
     type: "Badge",
     levelReq: null,
@@ -619,7 +619,7 @@ const shopItems: ShopItems[] = [
     id: 51,
     name: "Heimdallsquester",
     description:
-      "Was a player in the original game that TillerQuest originated from.",
+      "Was a player in the original game that ChaQuest originated from.",
     price: 0,
     type: "Badge",
     levelReq: null,

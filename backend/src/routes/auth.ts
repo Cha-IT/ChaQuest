@@ -52,7 +52,7 @@ router.get("/login-page", (req, res) => {
     <!DOCTYPE html>
     <html>
     <head>
-        <title>TillerQuest API Login</title>
+        <title>ChaQuest API Login</title>
         <style>
             body { 
                 font-family: Arial, sans-serif; 
@@ -77,7 +77,7 @@ router.get("/login-page", (req, res) => {
         </style>
     </head>
     <body>
-        <h1>🏰 TillerQuest API Access</h1>
+        <h1>🏰 ChaQuest API Access</h1>
         <p>Authenticate with GitHub to access the API</p>
         <a href="/auth/login" class="btn">🔗 Login with GitHub</a>
         <br><br>

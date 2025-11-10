@@ -9,7 +9,7 @@ import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 
 export const metadata: Metadata = {
-  title: "TillerQuest: A gamified classroom experience",
+  title: "ChaQuest: A gamified classroom experience",
   description: "A gamified classroom experience",
 };
 

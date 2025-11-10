@@ -20,7 +20,7 @@ export default async function Home() {
         <div className="mt-48 flex flex-col gap-30 items-center text-6xl">
           <Image
             src="TillerQuestLogoVertical.svg"
-            alt="TillerQuest"
+            alt="ChaQuest"
             width={500}
             height={500}
             draggable={false}
@@ -29,6 +29,9 @@ export default async function Home() {
             For students and teachers,
             <br />
             by students and teachers
+          </Typography>
+          <Typography variant="subtitle1" component={"p"} color="textSecondary">
+            Originally based on TillerQuest — credit to the TillerQuest project.
           </Typography>
         </div>
       </div>

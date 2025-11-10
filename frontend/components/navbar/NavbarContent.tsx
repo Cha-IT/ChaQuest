@@ -26,7 +26,7 @@ export default function NavbarContent() {
           <div className="flex items-center gap-5">
             <Image
               src="TillerQuestLogoHorizontal.svg"
-              alt="TillerQuest"
+              alt="ChaQuest"
               width={300}
               height={150}
             />
@@ -89,7 +89,7 @@ export default function NavbarContent() {
           <div className="hidden md:flex">
             <Image
               src="/TillerQuestLogoHorizontal.svg"
-              alt="TillerQuest"
+              alt="ChaQuest"
               width={300}
               height={150}
             />
@@ -97,7 +97,7 @@ export default function NavbarContent() {
           <div className="flex md:hidden">
             <Image
               src="/TQCircle.svg"
-              alt="TillerQuest"
+              alt="ChaQuest"
               width={70}
               height={70}
             />
