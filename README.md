@@ -40,7 +40,7 @@ This fork (ChaQuest) is maintained for use at Charlottenlund and does not accept
 - [Zod](https://zod.dev/) for validation.
 - [D3](https://d3js.org/) for data visualization.
 
-## Setup instructions
+## Setup instructions (Local Dev)
 
 #### Installation
 
@@ -200,6 +200,44 @@ $ npm run dev
   - If the mocking was successful the database should have example data
 - Create your own user by signing in with GitHub OAuth and creating a user. Example creation secret can be found in the db/seed files
 - Happy testing!
+
+## Setup instructions (Docker, for prod)
+
+#### Create .env.docker file in project root
+```bash
+# Combined environment variables for Docker composition
+# This file merges frontend/.env and backend/.env. Adjust values as needed.
+
+# Shared auth configuration
+BETTER_AUTH_SECRET=...
+BETTER_AUTH_URL=http://backend:8080
+AUTH_GITHUB_ID=...
+AUTH_GITHUB_SECRET=...
+
+# Database
+DATABASE_URL=postgres://...
+
+# Backend internal API credentials
+API_KEY=...
+API_SECRET=...
+FRONTEND_ORIGIN=http://localhost:3100
+
+# Frontend public configuration
+WEBHOOK_URL=...
+NEXT_PUBLIC_MAGICAL_AREA_LATITUDE=0
+NEXT_PUBLIC_MAGICAL_AREA_LONGITUDE=0
+
+# Runtime
+NODE_ENV=production
+
+```
+
+#### Run command in project root
+```bash
+docker compose up -d
+```
+The docker images will go through the building process and then come online.
+
 
 ## Conventions
 

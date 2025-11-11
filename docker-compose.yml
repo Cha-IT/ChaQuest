@@ -1,0 +1,28 @@
+version: "2.4"
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: chaquest-backend
+    env_file:
+      - .env.docker
+    ports:
+      - "4100:8080"
+    mem_limit: 1g
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: chaquest-frontend
+    env_file:
+      - .env.docker
+    environment:
+      # Ensure Next.js listens on 3100 inside container
+      - PORT=3100
+    ports:
+      - "3100:3100"
+    restart: unless-stopped

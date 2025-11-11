@@ -48,7 +48,7 @@ app.use(limiter);
 
 app.use(
   cors({
-    origin: "http://localhost:3000", // The frontend's origin
+    origin: process.env.FRONTEND_ORIGIN || "http://localhost:3100", // The frontend's origin
     methods: ["GET"], //  Allowed HTTP methods: ["GET", "POST", "PUT", "DELETE"]
     credentials: true, // Allow credentials (cookies, authorization headers, etc.)
   }),
